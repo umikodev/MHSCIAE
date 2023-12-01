@@ -122,11 +122,13 @@ label ch1_d1:
             show hareka school_uni eye_open_neutral_talk
             hareka "Oh."
             show hareka school_uni eye_open_neutral
+            show mc school_uni_blazer eye_open_frown
             "..."
             "What was that flat response?!"
             "I begin to feel nervous."
             "Maybe she's just shy?"
             "It's best not to think too hard into it."
+            show mc school_uni_blazer eye_open_smile
             jump ch1_d1_gettoknowhareka_questions
         "Why did you move to this school?" if not ch1_d1_gettoknowhareka_schoolmoveunlock:
             $ ch1_d1_gettoknowhareka_schoolmoveunlock = True
@@ -143,6 +145,7 @@ label ch1_d1:
             "I'd better respect her decision though."
             jump ch1_d1_gettoknowhareka_questions
         "What do you think of the school so far?" if not ch1_d1_gettoknowhareka_schoolopinionunlock:
+            $ ch1_d1_gettoknowhareka_schoolopinionunlock = True
             show mc school_uni_blazer eye_open_talk
             mc "So... What do you think of the school so far?"
             mc "Like, through the morning you've been here?"
@@ -158,7 +161,8 @@ label ch1_d1:
             "Why am I so glad, though...?"
             jump ch1_d1_gettoknowhareka_questions
         "Done" if ch1_d1_gettoknowhareka_hobbiesunlock or ch1_d1_gettoknowhareka_schoolmoveunlock or ch1_d1_gettoknowhareka_schoolopinionunlock:
-            return
+            jump ch1_d1_aftermenuone
+label ch1_d1_aftermenuone:
     show hareka school_uni eye_open_neutral_talk
     hareka "Why are you so interested in getting to know me?"
     show hareka school_uni eye_open_neutral
@@ -203,11 +207,15 @@ label ch1_d1:
             show hareka school_uni eye_close_smile
             hareka "Heh."
             "Wh-What...?"
-            return
+            jump ch1_d1_aftermenutwo
         "Don't ask her.":
             "I decide not to ask her. It'd be wayyy too awkward."
-    show mc school_uni_blazer eye_open_smile
-    show hareka school_uni eye_open_neutral
+            jump ch1_d1_aftermenutwo
+label ch1_d1_aftermenutwo:
+    scene bg cafeteria day
+    show mc school_uni_blazer eye_open_smile at left
+    show hareka school_uni eye_open_neutral at center
+    with fade
     "Soon enough, lunchtime is over."
     show mc school_uni_blazer eye_open_talk
     mc "Guess it's class time..."
@@ -264,6 +272,7 @@ label ch1_d1:
     show mc school_uni_blazer eye_open_surprised_blush
     show hareka school_uni eye_open_neutral_talk
     hareka "You look really flushed. Are you too warm?"
+    show hareka school_uni eye_open_neutral
     show mc school_uni_blazer eye_open_surprised_talk_blush
     mc "O-Oh..."
     show mc school_uni_blazer eye_open_surprised_blush
@@ -275,7 +284,8 @@ label ch1_d1:
     hareka "Why don't you take off your blazer?"
     show hareka school_uni eye_open_neutral
     "Oh, right..."
-    show mc school_uni_noblazer eye_close_frown
+    show mc school_uni_noblazer eye_close_smile
     "I remove it as she asked."
     "I begin to calm down a bit."
+    show mc school_uni_noblazer eye_open_smile
     "The ride continues in silence."

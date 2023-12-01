@@ -1,4 +1,4 @@
 default ch1_d1_gettoknowhareka_hobbiesunlock = False
 default ch1_d1_gettoknowhareka_schoolmoveunlock = False
 default ch1_d1_gettoknowhareka_schoolopinionunlock = False
-default ch1_d1_harekafriendask = True
+default ch1_d1_harekafriendask = False

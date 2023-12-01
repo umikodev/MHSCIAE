@@ -19,3 +19,4 @@ image hareka school_uni eye_open_smile:
     zoom 0.75
 image hareka school_uni eye_close_smile:
     "images/Characters/Hareka_Kiratani/school_uniform/EyeCloseSmile.png"
+    zoom 0.75
