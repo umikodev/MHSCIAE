@@ -9,3 +9,4 @@ label start:
     centered "I don't know why..."
     centered "Maybe things could change?"
     centered "If... only..."
+    jump ch1_d1
