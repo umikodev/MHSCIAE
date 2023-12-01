@@ -50,6 +50,8 @@ image mc school_uni_noblazer eye_open_mad_talk = "images/Characters/Alexander_Wr
 image mc school_uni_noblazer eye_close_mad_talk = "images/Characters/Alexander_Wright/school_uniform/no_blazer/EyeCloseMadTalk.png"
 image mc school_uni_noblazer eye_open_surprised = "images/Characters/Alexander_Wright/school_uniform/no_blazer/EyeOpenSurprised.png"
 image mc school_uni_noblazer eye_open_surprised_talk = "images/Characters/Alexander_Wright/school_uniform/no_blazer/EyeOpenSurprisedTalk.png"
+image mc school_uni_noblazer eye_open_surprised_blush = "images/Characters/Alexander_Wright/school_uniform/no_blazer/EyeOpenSurprisedBlush.png"
+image mc school_uni_noblazer eye_open_surprised_talk_blush = "images/Characters/Alexander_Wright/school_uniform/no_blazer/EyeOpenSurprisedBlushTalk.png"
 
 # casual - hoodie
 image mc casual_hoodie eye_open_smile = "images/Characters/Alexander_Wright/casual_hoodie/EyeOpenSmile.png"
