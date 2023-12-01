@@ -1,5 +1,5 @@
 # Definition of Alexander Wright
-define mc = Character("Alex",image="alex",voice_tag="alex")
+define mc = Character(name="Alex",image="alex",voice_tag="alex")
 
 # school uniform - blazer
 image mc school_uni_blazer eye_open_smile = "images/Characters/Alexander_Wright/school_uniform/blazer/EyeOpenSmile.png"
