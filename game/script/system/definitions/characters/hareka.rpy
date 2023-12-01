@@ -14,3 +14,8 @@ image hareka school_uni eye_open_neutral_talk:
 image hareka school_uni eye_close_neutral_talk:
     "images/Characters/Hareka_Kiratani/school_uniform/EyeCloseNeutralTalk.png"
     zoom 0.75
+image hareka school_uni eye_open_smile:
+    "images/Characters/Hareka_Kiratani/school_uniform/EyeOpenSmile.png"
+    zoom 0.75
+image hareka school_uni eye_close_smile:
+    "images/Characters/Hareka_Kiratani/school_uniform/EyeCloseSmile.png"
