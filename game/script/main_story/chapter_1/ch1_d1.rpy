@@ -289,3 +289,23 @@ label ch1_d1_aftermenutwo:
     "I begin to calm down a bit."
     show mc school_uni_noblazer eye_open_smile
     "The ride continues in silence."
+    "After a while, the train announces her stop. She stands up."
+    show hareka school_uni eye_open_neutral_talk
+    hareka "Thank you for coming with me."
+    show mc school_uni_noblazer eye_open_surprised_talk_blush
+    mc "O-Oh, you're welcome!"
+    show mc school_uni_noblazer eye_open_surprised_blush
+    "Damn it, I was caught off guard... I didn't expect her to thank me..."
+    show hareka school_uni eye_open_neutral_talk
+    hareka "I'll see you tomorrow."
+    show hareka school_uni eye_open_neutral
+    show mc school_uni_noblazer eye_open_surprised_talk_blush
+    mc "Yeah, okay!"
+    mc "Bye!"
+    show mc school_uni_noblazer eye_open_surprised_blush
+    hide hareka with dissolve
+    "She exits the train."
+    "I'm left with a rush of dopamine."
+    "Wow... I can't believe this happened..."
+    "She's so..."
+    "Aaaah..."
