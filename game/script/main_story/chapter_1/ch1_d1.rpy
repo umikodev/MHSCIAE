@@ -204,9 +204,10 @@ label ch1_d1_aftermenuone:
             mc "O-Okay!"
             mc "I'll try my best to, um... be a good friend!"
             show mc school_uni_blazer eye_open_surprised_blush
-            show hareka school_uni eye_close_smile
-            hareka "Heh."
-            "Wh-What...?"
+            show hareka school_uni eye_open_neutral_talk
+            hareka "Okay. I look forward to it."
+            show hareka school_uni eye_open_neutral
+            "W-Woah..."
             jump ch1_d1_aftermenutwo
         "Don't ask her.":
             "I decide not to ask her. It'd be wayyy too awkward."
