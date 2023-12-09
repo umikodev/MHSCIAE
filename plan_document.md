@@ -16,3 +16,13 @@ Eyes: #fae97d
 Hair: #383838
 
 Skin: #fffcf2
+
+---
+##### Teacher - Jennifer Robertson
+Eyes: #43b543
+
+Hair: #52463a
+
+Skin: #ede9cc
+
+---
