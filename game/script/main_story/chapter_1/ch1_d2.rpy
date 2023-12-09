@@ -50,3 +50,20 @@ label ch1_d2:
     show hareka school_uni eye_close_neutral
     "Hareka doesn't respond."
     "Oops..."
+    scene bg classroom day
+    show mc school_uni_blazer eye_open_smile at left
+    show hareka school_uni eye_open_neutral at center
+    show jennifer teacher_uni eye_open_smile at right
+    "It's finally lunchtime."
+    show jennifer teacher_uni eye_open_talk
+    jen "Right, lunchtime!"
+    jen "I'll see you all later!"
+    show jennifer teacher_uni eye_open_smile
+    hide jennifer with moveoutright
+    "Mrs Robertson leaves."
+    show mc school_uni_blazer eye_open_talk
+    mc "Let's go to lunch!"
+    show mc school_uni_blazer eye_open_smile
+    show hareka school_uni eye_open_neutral_talk
+    hareka "Yes."
+    show hareka school_uni eye_open_neutral
