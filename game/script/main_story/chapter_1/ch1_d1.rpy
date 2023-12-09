@@ -309,3 +309,35 @@ label ch1_d1_aftermenutwo:
     "Wow... I can't believe this happened..."
     "She's so..."
     "Aaaah..."
+
+    scene bg futon room
+    show mc school_uni_noblazer eye_open_smile
+    with fade
+    "I finally return home."
+    "My stop is much further than hers..."
+    "Going to a school was always a pain... but maybe I don't mind so much now."
+    show mc school_uni_noblazer eye_close_smile
+    "She's so... cool..."
+    if ch1_d1_harekafriendask:
+        "And she's my friend now... I can't believe it..."
+    show mc school_uni_noblazer eye_open_smile
+    "Well, I'd better get started on dinner."
+
+    scene bg futon room night
+    with fade
+    "I made spaghetti bolognese for dinner, and then played some video games for a while."
+    "Now it's finally time for bed..."
+    "I snuggle into my bed. It's nice and warm."
+    "I can't wait to see her tomorrow..."
+
+    scene black
+    with fade
+    centered "Chapter 1 - Day 1 complete!"
+    menu ch1_d1_completemenu:
+        "Would you like to replay the day, or move onto the next day?"
+        "Replay.":
+            "You've chosen to replay {b}Chapter 1 - Day 1{/b}.\nEnjoy!"
+            jump ch1_d1
+        "Move on.":
+            "You've chosen to move on to {b}Chapter 1 - Day 2{/b}.\nEnjoy!"
+            jump ch1_d2
