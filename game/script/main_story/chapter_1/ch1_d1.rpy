@@ -253,6 +253,8 @@ label ch1_d1_aftermenutwo:
     mc "O-O-Oh! O-Okay!"
     mc "Um, let's go then...!"
     show mc school_uni_blazer eye_open_surprised_blush
+    window hide
+    pause 0.1
     
     show bg train day
     show mc school_uni_blazer eye_open_surprised_blush
@@ -292,6 +294,7 @@ label ch1_d1_aftermenutwo:
     "After a while, the train announces her stop. She stands up."
     show hareka school_uni eye_open_neutral_talk
     hareka "Thank you for coming with me."
+    show hareka school_uni eye_open_neutral
     show mc school_uni_noblazer eye_open_surprised_talk_blush
     mc "O-Oh, you're welcome!"
     show mc school_uni_noblazer eye_open_surprised_blush
@@ -315,7 +318,7 @@ label ch1_d1_aftermenutwo:
     with fade
     "I finally return home."
     "My stop is much further than hers..."
-    "Going to a school was always a pain... but maybe I don't mind so much now."
+    "Going to a school so far away was always a pain, even though I liked going... but maybe I don't mind so much now."
     show mc school_uni_noblazer eye_close_smile
     "She's so... cool..."
     if ch1_d1_harekafriendask:
