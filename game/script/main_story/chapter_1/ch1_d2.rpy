@@ -1,7 +1,7 @@
 label ch1_d2:
     scene black
     with fade
-    centered "Chapter 1 - Day 2\n Wednesday 30th August 3056"
+    centered "Chapter 1 - Day 2\n Wednesday 30th August 13040"
 
     scene bg classroom day
     show mc school_uni_blazer eye_open_smile at left
