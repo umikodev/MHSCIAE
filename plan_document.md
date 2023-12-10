@@ -9,6 +9,8 @@ Hair: #6e635c
 
 Skin: #fffce6
 
+Voicevox ID: 11
+
 ---
 ##### LI - Hareka Kiratani
 Eyes: #fae97d
