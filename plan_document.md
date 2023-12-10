@@ -29,4 +29,6 @@ Hair: #52463a
 
 Skin: #ede9cc
 
+Voicevox ID: 9
+
 ---
