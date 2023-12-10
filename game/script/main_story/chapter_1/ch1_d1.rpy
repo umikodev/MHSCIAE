@@ -10,11 +10,13 @@ label ch1_d1:
     with dissolve
     "I take a deep breath."
     show mc school_uni_blazer eye_close_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC001.wav"
     mc "Phew, I made it..."
     show mc school_uni_blazer eye_close_smile
     "Some people would call me strange, but I like school!"
     "However, after being away for a few weeks, my body clock freaked out... so I ended up almost being late."
     show mc school_uni_blazer eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC002.wav"
     mc "Right, let's do this!"
     show mc school_uni_blazer eye_open_smile
 
@@ -29,16 +31,20 @@ label ch1_d1:
     show mc at left with move
     show jennifer teacher_uni eye_open_smile at center with moveinright
     show jennifer teacher_uni eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen001.wav"
     jen "Okay, everyone, settle down!"
     show jennifer teacher_uni eye_open_smile
     "The class begins to quieten with her entry."
     show jennifer teacher_uni eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen002.wav"
     jen "Welcome back to school, everyone! Let's make this an exciting year!"
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen003.wav"
     jen "I also have some news for you all."
     show jennifer teacher_uni eye_open_smile
     "Huh, news...?"
     "I wonder what it could be..."
     show jennifer teacher_uni eye_close_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen004.wav"
     jen "You can come in now."
     show jennifer teacher_uni eye_close_smile
     "A moment of silence, before..."
@@ -47,32 +53,40 @@ label ch1_d1:
     "...an unfamiliar girl enters the classroom."
     "My heart skips a beat."
     show jennifer teacher_uni eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen005.wav"
     jen "Everyone, we have a new addition to the class, starting today."
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen006.wav"
     jen "Why don't you introduce yourself?"
     show jennifer teacher_uni eye_open_smile
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka001.wav"
     hareka "Hello. My name is Hareka Kiratani."
     show hareka school_uni eye_open_neutral
     "Hushed whispers fill the room."
     "I can't stop staring at her."
     "She's so..."
     show jennifer teacher_uni eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen007.wav"
     jen "You can sit in the middle there, next to Alexander."
     show jennifer teacher_uni eye_open_smile
     "WHAT-"
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka002.wav"
     hareka "Okay."
     show hareka school_uni eye_open_neutral
     hide jennifer with dissolve
     show hareka at center with move
     "Hareka heads to the seat next to me."
     show mc school_uni_blazer eye_open_surprised_talk_blush
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC003.wav"
     mc "H-Hello..."
     show mc school_uni_blazer eye_open_surprised_blush
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka003.wav"
     hareka "Hello."
     show hareka school_uni eye_open_neutral
     "She... She said hello to me!"
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen008.wav"
     jen "Okay, everyone, let's begin work!"
     show mc school_uni_blazer eye_close_surprised_blush
     "I take a deep breath."
@@ -88,12 +102,15 @@ label ch1_d1:
     "I somehow managed to get through it..."
     "I think I'm getting used to having her sit next to me already. Thank goodness."
     show mc school_uni_blazer eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC004.wav"
     mc "Let's go to the cafeteria, Hareka."
     show mc school_uni_blazer eye_open_smile
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka004.wav"
     hareka "I was planning to."
     show hareka school_uni eye_open_neutral
     show mc school_uni_blazer eye_close_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC005.wav"
     mc "Ah, yeah, of course..."
     show mc school_uni_blazer eye_close_smile
 
@@ -109,17 +126,22 @@ label ch1_d1:
         "What are your hobbies?" if not ch1_d1_gettoknowhareka_hobbiesunlock:
             $ ch1_d1_gettoknowhareka_hobbiesunlock = True
             show mc school_uni_blazer eye_open_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC006.wav"
             mc "So... What do you like to do in your free time, Hareka?"
             show mc school_uni_blazer eye_open_smile
             show hareka school_uni eye_open_neutral_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka005.wav"
             hareka "I like writing and art."
             show hareka school_uni eye_open_neutral
             show mc school_uni_blazer eye_open_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC007.wav"
             mc "Oh, wow! So you're the artsy type!"
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC008.wav"
             mc "I like art too!"
             show mc school_uni_blazer eye_open_smile
             "Phew, we have something in common already!"
             show hareka school_uni eye_open_neutral_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka006.wav"
             hareka "Oh."
             show hareka school_uni eye_open_neutral
             show mc school_uni_blazer eye_open_frown
@@ -133,12 +155,15 @@ label ch1_d1:
         "Why did you move to this school?" if not ch1_d1_gettoknowhareka_schoolmoveunlock:
             $ ch1_d1_gettoknowhareka_schoolmoveunlock = True
             show mc school_uni_blazer eye_open_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC009.wav"
             mc "So... Why did you move to this school, Hareka?"
             show mc school_uni_blazer eye_open_smile
             show hareka school_uni eye_open_neutral_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka007.wav"
             hareka "I'd rather not speak about that."
             show hareka school_uni eye_open_neutral
             show mc school_uni_blazer eye_open_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC010.wav"
             mc "O-Oh... Okay..."
             show mc school_uni_blazer eye_open_smile
             "Huh, strange..."
@@ -147,14 +172,19 @@ label ch1_d1:
         "What do you think of the school so far?" if not ch1_d1_gettoknowhareka_schoolopinionunlock:
             $ ch1_d1_gettoknowhareka_schoolopinionunlock = True
             show mc school_uni_blazer eye_open_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC011.wav"
             mc "So... What do you think of the school so far?"
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC012.wav"
             mc "Like, through the morning you've been here?"
             show mc school_uni_blazer eye_open_smile
             show hareka school_uni eye_open_neutral_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka008.wav"
             hareka "I think it's nice."
             show hareka school_uni eye_open_neutral
             show mc school_uni_blazer eye_open_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC013.wav"
             mc "Oh, good!"
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC014.wav"
             mc "I'm glad you're liking it so far."
             show mc school_uni_blazer eye_open_smile
             "That's great! I'm glad she's happy."
@@ -164,14 +194,17 @@ label ch1_d1:
             jump ch1_d1_aftermenuone
 label ch1_d1_aftermenuone:
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka009.wav"
     hareka "Why are you so interested in getting to know me?"
     show hareka school_uni eye_open_neutral
     show mc school_uni_blazer eye_open_surprised_talk_blush
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC015.wav"
     mc "O-Oh!"
     show mc school_uni_blazer eye_open_surprised_blush
     "Aah, what do I even say?! That took me totally off guard..."
     "Why do I... That's a good question..."
     show mc school_uni_blazer eye_close_surprised_talk_blush
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC016.wav"
     mc "W-Well... Uhm..."
     show mc school_uni_blazer eye_close_surprised_blush
     "I should just ask her to be friends with me..."
@@ -180,8 +213,11 @@ label ch1_d1_aftermenuone:
         "Ask her.":
             $ ch1_d1_harekafriendask = True
             show mc school_uni_blazer eye_open_surprised_talk_blush
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC017.wav"
             mc "Well..."
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC018.wav"
             mc "I want to be friends with you..."
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC019.wav"
             mc "I-If you want..."
             show mc school_uni_blazer eye_close_surprised_blush
             "Damn it, that's so embarrassing!"
@@ -189,22 +225,28 @@ label ch1_d1_aftermenuone:
             "Aaaah..."
             "There's a moment of silence."
             show hareka school_uni eye_open_neutral_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka010.wav"
             hareka "Okay."
             show hareka school_uni eye_open_neutral
             show mc school_uni_blazer eye_open_surprised_talk_blush
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC020.wav"
             mc "W-What?!"
             show mc school_uni_blazer eye_open_surprised_blush
             "There's no way..."
             show hareka school_uni eye_open_neutral_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka011.wav"
             hareka "Sure, you can be my friend."
             show hareka school_uni eye_open_neutral
             "Woah..."
             "I..."
             show mc school_uni_blazer eye_open_surprised_talk_blush
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC021.wav"
             mc "O-Okay!"
+            voice "audio/VoiceVox/Chapter 1/Day1/MC/MC022.wav"
             mc "I'll try my best to, um... be a good friend!"
             show mc school_uni_blazer eye_open_surprised_blush
             show hareka school_uni eye_open_neutral_talk
+            voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka012.wav"
             hareka "Okay. I look forward to it."
             show hareka school_uni eye_open_neutral
             "W-Woah..."
@@ -219,9 +261,11 @@ label ch1_d1_aftermenutwo:
     with fade
     "Soon enough, lunchtime is over."
     show mc school_uni_blazer eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC023.wav"
     mc "Guess it's class time..."
     show mc school_uni_blazer eye_open_smile
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka013.wav"
     hareka "Yes, it is."
     show hareka school_uni eye_open_neutral
     "We clear our trays and head back to class."
@@ -233,14 +277,18 @@ label ch1_d1_aftermenutwo:
     "The day finishes rather quickly."
     "I pack up and turn to Hareka."
     show mc school_uni_blazer eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC024.wav"
     mc "How do you get home?"
     show mc school_uni_blazer eye_open_smile
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka014.wav"
     hareka "I take the train."
     show hareka school_uni eye_open_neutral
     show mc school_uni_blazer eye_happy_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC025.wav"
     mc "Oh! So do I!"
     show mc school_uni_blazer eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC026.wav"
     mc "Do you want to go home together?"
     show mc school_uni_blazer eye_open_surprised_blush
     "W-Wait..."
@@ -248,10 +296,13 @@ label ch1_d1_aftermenutwo:
     "Ohhhh no, that's bad... that's really bad..."
     "It was impulsive..."
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka015.wav"
     hareka "Okay."
     show hareka school_uni eye_open_neutral
     show mc school_uni_blazer eye_open_surprised_talk_blush
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC027.wav"
     mc "O-O-Oh! O-Okay!"
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC028.wav"
     mc "Um, let's go then...!"
     show mc school_uni_blazer eye_open_surprised_blush
     window hide
@@ -268,22 +319,28 @@ label ch1_d1_aftermenutwo:
         "A girl I'm {i}friends{/i} with!!"
     "This is the greatest day of my life!!!"
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka016.wav"
     hareka "Are you okay?"
     show hareka school_uni eye_open_neutral
     show mc school_uni_blazer eye_open_surprised_talk_blush
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC029.wav"
     mc "W-W-What??"
     show mc school_uni_blazer eye_open_surprised_blush
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka017.wav"
     hareka "You look really flushed. Are you too warm?"
     show hareka school_uni eye_open_neutral
     show mc school_uni_blazer eye_open_surprised_talk_blush
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC030.wav"
     mc "O-Oh..."
     show mc school_uni_blazer eye_open_surprised_blush
     "Shit. She noticed."
     show mc school_uni_blazer eye_close_surprised_talk_blush
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC031.wav"
     mc "M-Maybe..."
     show mc school_uni_blazer eye_close_surprised_blush
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka018.wav"
     hareka "Why don't you take off your blazer?"
     show hareka school_uni eye_open_neutral
     "Oh, right..."
@@ -294,17 +351,22 @@ label ch1_d1_aftermenutwo:
     "The ride continues in silence."
     "After a while, the train announces her stop. She stands up."
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka019.wav"
     hareka "Thank you for coming with me."
     show hareka school_uni eye_open_neutral
     show mc school_uni_noblazer eye_open_surprised_talk_blush
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC032.wav"
     mc "O-Oh, you're welcome!"
     show mc school_uni_noblazer eye_open_surprised_blush
     "Damn it, I was caught off guard... I didn't expect her to thank me..."
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka020.wav"
     hareka "I'll see you tomorrow."
     show hareka school_uni eye_open_neutral
     show mc school_uni_noblazer eye_open_surprised_talk_blush
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC033.wav"
     mc "Yeah, okay!"
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC034.wav"
     mc "Bye!"
     show mc school_uni_noblazer eye_open_surprised_blush
     hide hareka with dissolve
