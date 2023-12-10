@@ -1,7 +1,7 @@
 label ch1_d1:
     scene black
     with fade
-    centered "Chapter 1 - Day 1\n Tuesday 29th August 3056"
+    centered "Chapter 1 - Day 1\n Tuesday 29th August 13040"
     
     scene bg school hallway
     with fade
