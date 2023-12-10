@@ -5,3 +5,7 @@
 
 - [x] add surprised_blush expression images to MC (school_uniform/no_blazer)
 - [ ] add closed_eyes (frown and sad talk) expression images to Jennifer (teacher_uniform)
+### Sunday 10th December 2023
+**Characters**
+- [ ] add closed_eyes (frown and sad talk) expression images to Jennifer (teacher_uniform)
+- [ ] add happy_eyes (smile) expression images to MC (school_uniform/blazer)
