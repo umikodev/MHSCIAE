@@ -10,11 +10,13 @@ label ch1_d1:
     with dissolve
     "I take a deep breath."
     show mc school_uni_blazer eye_close_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC001.wav"
     mc "Phew, I made it..."
     show mc school_uni_blazer eye_close_smile
     "Some people would call me strange, but I like school!"
     "However, after being away for a few weeks, my body clock freaked out... so I ended up almost being late."
     show mc school_uni_blazer eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC002.wav"
     mc "Right, let's do this!"
     show mc school_uni_blazer eye_open_smile
 
@@ -29,16 +31,20 @@ label ch1_d1:
     show mc at left with move
     show jennifer teacher_uni eye_open_smile at center with moveinright
     show jennifer teacher_uni eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen001.wav"
     jen "Okay, everyone, settle down!"
     show jennifer teacher_uni eye_open_smile
     "The class begins to quieten with her entry."
     show jennifer teacher_uni eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen002.wav"
     jen "Welcome back to school, everyone! Let's make this an exciting year!"
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen003.wav"
     jen "I also have some news for you all."
     show jennifer teacher_uni eye_open_smile
     "Huh, news...?"
     "I wonder what it could be..."
     show jennifer teacher_uni eye_close_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen004.wav"
     jen "You can come in now."
     show jennifer teacher_uni eye_close_smile
     "A moment of silence, before..."
@@ -47,32 +53,40 @@ label ch1_d1:
     "...an unfamiliar girl enters the classroom."
     "My heart skips a beat."
     show jennifer teacher_uni eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen005.wav"
     jen "Everyone, we have a new addition to the class, starting today."
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen006.wav"
     jen "Why don't you introduce yourself?"
     show jennifer teacher_uni eye_open_smile
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka001.wav"
     hareka "Hello. My name is Hareka Kiratani."
     show hareka school_uni eye_open_neutral
     "Hushed whispers fill the room."
     "I can't stop staring at her."
     "She's so..."
     show jennifer teacher_uni eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen007.wav"
     jen "You can sit in the middle there, next to Alexander."
     show jennifer teacher_uni eye_open_smile
     "WHAT-"
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka002.wav"
     hareka "Okay."
     show hareka school_uni eye_open_neutral
     hide jennifer with dissolve
     show hareka at center with move
     "Hareka heads to the seat next to me."
     show mc school_uni_blazer eye_open_surprised_talk_blush
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC003.wav"
     mc "H-Hello..."
     show mc school_uni_blazer eye_open_surprised_blush
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka003.wav"
     hareka "Hello."
     show hareka school_uni eye_open_neutral
     "She... She said hello to me!"
+    voice "audio/VoiceVox/Chapter 1/Day1/Jen/Jen008.wav"
     jen "Okay, everyone, let's begin work!"
     show mc school_uni_blazer eye_close_surprised_blush
     "I take a deep breath."
@@ -88,12 +102,15 @@ label ch1_d1:
     "I somehow managed to get through it..."
     "I think I'm getting used to having her sit next to me already. Thank goodness."
     show mc school_uni_blazer eye_open_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC004.wav"
     mc "Let's go to the cafeteria, Hareka."
     show mc school_uni_blazer eye_open_smile
     show hareka school_uni eye_open_neutral_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/Hareka/Hareka004.wav"
     hareka "I was planning to."
     show hareka school_uni eye_open_neutral
     show mc school_uni_blazer eye_close_talk
+    voice "audio/VoiceVox/Chapter 1/Day1/MC/MC005.wav"
     mc "Ah, yeah, of course..."
     show mc school_uni_blazer eye_close_smile
 
