@@ -19,6 +19,8 @@ Hair: #383838
 
 Skin: #fffcf2
 
+Voicevox ID: 23/25
+
 ---
 ##### Teacher - Jennifer Robertson
 Eyes: #43b543
