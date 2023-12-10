@@ -71,6 +71,7 @@ label ch1_d2:
     scene bg cafeteria day
     show mc school_uni_blazer eye_open_smile at left
     show hareka school_uni eye_open_neutral at center
+    with fade
     "We head to the cafeteria once more."
     "After grabbing our food, we sit down at the same table as last time."
     show hareka school_uni eye_open_neutral_talk
